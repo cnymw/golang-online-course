@@ -11,4 +11,4 @@ banner:
   image: ''
 ---
 
-Explore our courses below and expand your knowledge!
+浏览下面的课程，并拓展你的知识库吧！

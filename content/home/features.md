@@ -2,7 +2,7 @@
 widget: featurette
 headless: true
 weight: 20
-title: Features
+title: 特色
 subtitle: ✨ Teach _anything_ with
 feature:
   - icon: chalkboard-teacher

@@ -459,39 +459,4 @@ func (e *errorString) Error() string {
 
 # 思维导图
 
-```markmap
-- 标识符
-    - 概念
-    - 空白标识符
-    - 标识符命名规则
-    - Go SDK 预先声明的标识符
-        - 布尔型
-        - 无符号整型
-        - 有符号整型
-        - 浮点数
-        - 复数
-        - 字符串
-        - 指针
-        - 字节
-        - rune
-        - iota
-        - nil
-        - append
-        - copy
-        - delete
-        - len
-        - cap
-        - make
-        - new
-        - complex
-        - real
-        - imag
-        - close
-        - panic
-        - recover
-        - print
-        - println
-        - error
-```
-
 ![go-源码解读-标识符-思维导图.png](https://cnymw.github.io/GolangStudy/docs/go-源码解读-标识符/go-源码解读-标识符.png)

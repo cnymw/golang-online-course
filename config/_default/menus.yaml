@@ -21,6 +21,6 @@ main:
   - name: Blog
     PageRef: post/_index.md
     weight: 30
-  - name: Contact
-    PageRef: contact/index.md
-    weight: 60
+#  - name: Contact
+#    PageRef: contact/index.md
+#    weight: 60

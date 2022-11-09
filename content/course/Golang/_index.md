@@ -23,4 +23,4 @@ tags:
 
 {{< list_children >}}
 
-{{< cta cta_text="Begin the course" cta_link="python" >}}
+{{< cta cta_text="Begin the course" cta_link="go-源码解读-双向链表list" >}}

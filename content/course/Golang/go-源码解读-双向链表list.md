@@ -347,6 +347,6 @@ func (l *List) PushFrontList(other *List) {
 }
 ```
 
-# 思维导图
+## 思维导图
 
 ![go-源码解读-双向链表list.png](https://cnymw.github.io/GolangStudy/docs/go-源码解读-双向链表list/go-源码解读-双向链表list.png)

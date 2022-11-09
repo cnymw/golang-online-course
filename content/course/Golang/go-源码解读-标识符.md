@@ -457,6 +457,6 @@ func (e *errorString) Error() string {
 }
 ```
 
-# 思维导图
+## 思维导图
 
 ![go-源码解读-标识符-思维导图.png](https://cnymw.github.io/GolangStudy/docs/go-源码解读-标识符/go-源码解读-标识符.png)

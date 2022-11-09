@@ -7,14 +7,14 @@ subtitle: ✨ Teach _anything_ with
 feature:
   - icon: chalkboard-teacher
     icon_pack: fas
-    name: Slides
+    name: 思维导图
     description:
   - icon: video
     icon_pack: fas
-    name: Video
+    name: 视频
     description:
   - icon: code
     icon_pack: fas
-    name: Math & Code
+    name: 代码
     description:
 ---

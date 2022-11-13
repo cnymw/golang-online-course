@@ -1,6 +1,6 @@
 ---
-title: 📊 学习 Golang 语言
-linkTitle: Golang 语言
+title: 📊 学习 Golang
+linkTitle: Golang
 summary: 通过该课程可以从浅入深学习 Golang 这门语言。
 date: '2022-11-09'
 type: book
@@ -23,4 +23,4 @@ tags:
 
 {{< list_children >}}
 
-{{< cta cta_text="Begin the course" cta_link="go-源码解读-双向链表list" >}}
+{{< cta cta_text="开始课程吧" cta_link="go-源码解读-双向链表list" >}}

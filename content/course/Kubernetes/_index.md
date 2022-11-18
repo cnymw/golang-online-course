@@ -19,4 +19,4 @@ tags:
 
 {{< list_children >}}
 
-{{< cta cta_text="开始课程吧" cta_link="go-源码解读-双向链表list" >}}
+{{< cta cta_text="开始课程吧" cta_link="Kubernetes-概述" >}}

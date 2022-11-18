@@ -7,7 +7,7 @@ weight: 1
 
 ---
 
-{{< video src="https://www.bilibili.com/video/BV1bV4y147o9/" controls="yes" >}}
+{{< video src="https://www.bilibili.com/video/BV1bV4y147o9/">}}
 
 ## Kubernetes 概述
 

@@ -14,6 +14,10 @@ main:
     PageRef: course/Golang/_index.md
     weight: 10
     parent: courses
+  - name: Kubernetes
+    PageRef: course/Kubernetes/_index.md
+    weight: 11
+    parent: courses
 #  - name: Blog
 #    PageRef: post/_index.md
 #    weight: 30

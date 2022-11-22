@@ -17,6 +17,8 @@ https://liangyaopei.github.io/2021/01/02/golang-gc-intro/
 https://cloud.tencent.com/developer/article/1900650
 {{< /spoiler >}}
 
+---
+
 ## channel 相关
 
 {{< spoiler text="golang channel 作用？" >}}
@@ -26,3 +28,17 @@ TODO
 {{< spoiler text="channel 的底层实现" >}}
 TODO
 {{< /spoiler >}}
+
+---
+
+## 其他
+
+{{< spoiler text="golang 如何做超时控制?" >}}
+TODO
+{{< /spoiler >}}
+
+{{< spoiler text="golang 如何 比较两个 map 使用相等" >}}
+TODO
+{{< /spoiler >}}
+
+---

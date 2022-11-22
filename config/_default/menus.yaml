@@ -18,6 +18,10 @@ main:
     PageRef: course/Kubernetes/_index.md
     weight: 11
     parent: courses
+  - name: 面试题库
+    PageRef: course/Interview/_index.md
+    weight: 12
+    parent: courses
 #  - name: Blog
 #    PageRef: post/_index.md
 #    weight: 30

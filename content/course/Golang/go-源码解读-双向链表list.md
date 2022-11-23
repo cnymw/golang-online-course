@@ -4,6 +4,7 @@ title: Go 源码解读-双向链表 list
 date: '2022-10-14T00:00:00+01:00'
 type: book
 weight: 1
+commentable: true
 
 ---
 

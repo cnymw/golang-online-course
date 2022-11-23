@@ -4,6 +4,7 @@ title: kubernetes 面试题
 date: '2022-11-22T00:00:00+01:00'
 type: book
 weight: 2
+commentable: true
 
 ---
 
@@ -23,5 +24,5 @@ TODO
 ## 其他
 
 {{< spoiler text="介绍 k8s 基础组件及其之间的协作，功能" >}}
-TODO
+[Kubernetes 组件](https://golangstudy.netlify.app/course/kubernetes/kubernetes-组件/)
 {{< /spoiler >}}

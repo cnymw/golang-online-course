@@ -4,6 +4,7 @@ title: Kubernetes 概述
 date: '2022-11-18T00:00:00+01:00'
 type: book
 weight: 1
+commentable: true
 
 ---
 

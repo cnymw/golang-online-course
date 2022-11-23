@@ -71,17 +71,12 @@ features:
     content_dir: content
     branch: main
   comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
+    provider: 'giscus'
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: 'cnymw/golang-online-course'
+      repo_id: 'R_kgDOIZsj2g'
+      category: 'General'
+      category_id: 'DIC_kwDOIZsj2s4CStqn'
   search:
     provider: wowchemy
     algolia:

@@ -6,7 +6,7 @@ title: 程序猿Go师傅
 superuser: true
 
 # Role/position
-role: Developer
+role: 抖音
 
 # Organizations/Affiliations
 organizations:
@@ -15,11 +15,15 @@ organizations:
 
 interests:
 - Golang
+- Sleep
 
 social:
 - icon: github
   icon_pack: fab
   link: https://github.com/cnymw
+- icon: tiktok
+  icon_pack: fab
+  link: https://www.douyin.com/user/MS4wLjABAAAAKC8NjGp6J5tE9fcwE_0UDWpTPEAE-v81VwVxhx3-uyQ
 
 email: ''
 
@@ -31,3 +35,4 @@ user_groups:
 - media
 ---
 
+快上抖音关注我吧！

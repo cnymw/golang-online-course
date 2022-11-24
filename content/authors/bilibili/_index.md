@@ -6,20 +6,19 @@ title: 程序猿Go师傅
 superuser: true
 
 # Role/position
-role: Developer
-
-# Organizations/Affiliations
-organizations:
-- name: Home
-  url: ''
+role: Bilibili
 
 interests:
 - Golang
+- Sleep
 
 social:
 - icon: github
   icon_pack: fab
   link: https://github.com/cnymw
+- icon: bilibili
+  icon_pack: fab
+  link: https://space.bilibili.com/3311273/
 
 email: ''
 
@@ -31,3 +30,4 @@ user_groups:
 - media
 ---
 
+快上 bilibili 关注我吧！

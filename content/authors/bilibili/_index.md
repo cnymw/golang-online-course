@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 程序猿Go师傅
+title: 程序猿Go师傅_bilibili
 
 # Is this the primary user of the site?
 superuser: true

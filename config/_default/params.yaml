@@ -15,11 +15,11 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization
+    site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo learning theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Golang在线学习网站'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: '4b0788d041193b46cee0b0365ec0695e'
@@ -67,7 +67,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/wowchemy/starter-hugo-online-course'
+    url: 'https://github.com/cnymw/golang-online-course'
     content_dir: content
     branch: main
   comment:

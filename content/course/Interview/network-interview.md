@@ -5,6 +5,7 @@ date: '2022-11-22T00:00:00+01:00'
 type: book
 weight: 3
 commentable: true
+editable: true
 
 ---
 

@@ -5,6 +5,7 @@ date: '2022-11-23T00:00:00+01:00'
 type: book
 weight: 2
 commentable: true
+editable: true
 
 ---
 {{< bilibili src="https://player.bilibili.com/player.html?aid=814523589&bvid=BV13G4y1a7oq&cid=803968271&page=1" >}}

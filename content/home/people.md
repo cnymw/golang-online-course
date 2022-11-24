@@ -13,12 +13,10 @@ title: Follow Us！
 subtitle: 请关注我们的社交媒体吧！
 
 content:
-# Choose which groups/teams of users to display.
-#   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-user_groups:
-- media
+  user_groups:
+    - media
 design:
-show_interests: false
-show_role: false
-show_social: false
+  show_interests: false
+  show_role: false
+  show_social: false
 ---

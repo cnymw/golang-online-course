@@ -11,6 +11,8 @@ tags:
 
 ---
 
+{{< figure src="kubernetes.png" >}}
+
 {{< toc hide_on="xl" >}}
 
 ## 你将学习如下内容

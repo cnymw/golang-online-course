@@ -11,6 +11,7 @@ tags:
 
 ---
 
+{{< figure src="golang.png" >}}
 
 {{< toc hide_on="xl" >}}
 

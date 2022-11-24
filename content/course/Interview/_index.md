@@ -11,7 +11,7 @@ tags:
 
 ---
 
-{{< figure src="featured.jpg" >}}
+{{< figure src="offer.png" >}}
 
 {{< toc hide_on="xl" >}}
 

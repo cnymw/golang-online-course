@@ -77,7 +77,7 @@ kubectl api-resources --namespaced=false
 
 # 参考资料
 
-- [kubernetes.io官方文档：名字空间](https://kubernetes.io/zh-cn/docs/concepts/overview/working-with-objects/namespaces/)
+- [kubernetes.io官方文档：namespace](https://kubernetes.io/zh-cn/docs/concepts/overview/working-with-objects/namespaces/)
 
 # 思维导图
 

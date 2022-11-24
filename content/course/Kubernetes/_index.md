@@ -1,11 +1,14 @@
 ---
+
 title: 📊 学习 Kubernetes
 linkTitle: Kubernetes
 summary: 通过该课程可以从浅入深学习 Kubernetes。
 date: '2022-11-09'
 type: book
+weight: 2
 tags:
   - k8s
+
 ---
 
 {{< toc hide_on="xl" >}}

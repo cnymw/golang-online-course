@@ -11,10 +11,14 @@ feature:
     description:
   - icon: video
     icon_pack: fas
-    name: 视频
+    name: 短视频
     description:
   - icon: code
     icon_pack: fas
     name: 代码
+    description:
+  - icon: mobile
+    icon_pack: fas
+    name: 移动端
     description:
 ---

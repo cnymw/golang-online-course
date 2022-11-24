@@ -11,7 +11,6 @@ tags:
 
 ---
 
-{{< figure src="featured.jpg" >}}
 
 {{< toc hide_on="xl" >}}
 

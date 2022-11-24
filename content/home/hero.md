@@ -32,8 +32,6 @@ Golang 是一门非常容易上手的语言，语法简洁，代码易读。
 
 同时，还支持移动端，可以尝试下在手机上面打开本项目，方便你在任何场合下进行学习。
 
-如果有你有希望学习的内容，甚至提交你自己的学习记录，可以随时在本项目里面 pr/issue/comment。
-
 <a class="github-button" href="https://github.com/cnymw/GolangStudy" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star GolangStudy">Star GolangStudy</a>
 <br>
 <a class="github-button" href="https://github.com/cnymw/golang-online-course" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star golang-online-course">Star golang-online-course</a>

@@ -1,13 +1,17 @@
 ---
 
 title: Go 源码解读-双向链表 list
-date: '2022-10-14T00:00:00+01:00'
+date: '2022-10-14'
 type: book
 weight: 1
 commentable: true
 editable: true
 
 ---
+
+> 源码地址：container/list/list.go
+>
+> 源码版本：1.17.6
 
 双向链表也叫双链表，是链表的一种，它的每个数据结点中都有两个指针，分别指向直接后继和直接前驱。
 

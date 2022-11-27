@@ -18,6 +18,9 @@ tags:
 ## 你将学习如下内容
 
 - 基础：Kubernetes 核心组件
+  - Kubernetes 概述
+  - Kubernetes namespace
+  - Kubernetes 组件
 - 面试题目
 
 ## 课程列表

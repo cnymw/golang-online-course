@@ -1,7 +1,7 @@
 ---
 
 title: Kubernetes 组件
-date: '2022-11-23T00:00:00+01:00'
+date: '2022-11-23'
 type: book
 weight: 2
 commentable: true

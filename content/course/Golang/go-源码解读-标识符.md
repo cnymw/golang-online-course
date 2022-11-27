@@ -1,13 +1,16 @@
 ---
 
 title: Go 源码解读-标识符
-date: '2022-10-18T00:00:00+01:00'
+date: '2022-10-18'
 type: book
 weight: 2
 commentable: true
 editable: true
 
 ---
+> 源码地址：builtin/builtin.go
+>
+> 源码版本：1.17.6
 
 标识符是指 Go 语言对各种变量、方法、函数等命名时使用的字符序列，标识符由若干个字母、下划线`_`和数字组成。
 

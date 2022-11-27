@@ -1,7 +1,7 @@
 ---
 
 title: 1. 两数之和
-date: '2022-11-26T00:00:00+01:00'
+date: '2022-11-26'
 type: book
 weight: 1
 commentable: true
@@ -26,14 +26,14 @@ editable: true
 
 ## 题解
 
-### 方法1：暴力枚举
+### 解法 1：暴力枚举
 
 看到该题目第一反应是将所有的数字遍历 O(n*n) 遍，暴力得到所有的可能的结果以及下标。
 
 当我们遍历的时候，每一个在索引 index 之前的元素已经和索引 index 匹配过了，所以第二层循环只需要遍历索引 index 之后的元素即可。
 
 ```go
-// 方法1：暴力枚举
+// 解法 1：暴力枚举
 func twoSum(nums []int, target int) []int {
 	n := len(nums)
 	for i := 0; i < n; i++ {
@@ -47,7 +47,7 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-### 方法2：哈希表
+### 解法 2：哈希表
 
 通过分析可以知道，结果 target = 9，第一个输入为 2，我们只需要知道 7（9-2=7） 在不在数组中即可。
 
@@ -58,7 +58,7 @@ func twoSum(nums []int, target int) []int {
 在这里需要注意，当 target = 2 * num[i] 时，会出现 [i,i] 这样子的结果，例如 target=6,nums[0]=3, 会返回结果 [0,0]，所以需要排除这种情况。
 
 ```go
-// 方法2：哈希表
+// 解法 2：哈希表
 func twoSum(nums []int, target int) []int {
 	numsMap := make(map[int]int, len(nums))
 

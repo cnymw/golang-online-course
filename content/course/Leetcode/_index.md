@@ -5,7 +5,7 @@ linkTitle: Leetcode
 summary: 通过该课程可以学习用 Golang 语言刷 Leetcode。
 date: '2022-11-26'
 type: book
-weight: 1
+weight: 4
 tags:
   - leetcode
 

@@ -1,6 +1,6 @@
 ---
 
-title: 📊 学习 Golang
+title: 📊 Golang
 linkTitle: Golang
 summary: 通过该课程可以从浅入深学习 Golang 这门语言。
 date: '2022-11-09'

@@ -6,7 +6,8 @@ type: book
 weight: 2
 commentable: true
 editable: true
-
+tags:
+  - list
 ---
 
 ## 题目

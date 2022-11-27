@@ -10,7 +10,7 @@ main:
   - name: 课程
     weight: 20
     identifier: courses
-  - name: 学习 Golang
+  - name: Golang
     PageRef: course/Golang/_index.md
     weight: 10
     parent: courses

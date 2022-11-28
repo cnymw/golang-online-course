@@ -6,6 +6,7 @@ type: book
 weight: 1
 commentable: true
 editable: true
+share: true
 tags:
   - list
 

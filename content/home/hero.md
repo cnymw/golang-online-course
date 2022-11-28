@@ -2,7 +2,7 @@
 widget: hero
 headless: true
 weight: 10
-title: GolangStudy Online Courses
+title: golangstudy.tech
 hero_media: teacher.png
 design:
   background:
@@ -26,7 +26,7 @@ advanced:
 
 <br>
 
-本课程通过以下 **5** 种方式，全方位地指导如何学习 Golang
+本课程通过以下功能指导深入学习 Golang
 
 - 短视频：**3-5min** 快速入门
 - 文字：**10-30min** 深入学习

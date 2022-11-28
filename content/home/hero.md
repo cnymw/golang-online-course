@@ -2,7 +2,7 @@
 widget: hero
 headless: true
 weight: 10
-title: GolangStudy
+title: GolangStudy Online Courses
 hero_media: teacher.png
 design:
   background:
@@ -12,7 +12,7 @@ design:
     text_color_light: false
 cta:
   url: './course/'
-  label: 浏览所有的课程
+  label: 浏览课程
   icon_pack: fas
   icon: user-graduate
 cta_alt:
@@ -26,11 +26,7 @@ advanced:
 
 <br>
 
-Golang 是一门非常容易上手的语言，语法简洁，代码易读。
-
-本项目通过短视频+文字+思维导图+面试真题的方式，系统地指导大家如何学(面)习(试) Golang。
-
-同时，还支持移动端，可以尝试下在手机上面打开本项目，方便你在任何场合下进行学习。
+通过短视频+文字+思维导图+面试真题，全方位地指导如何学(面)习(试) Golang。
 
 <a class="github-button" href="https://github.com/cnymw/GolangStudy" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star GolangStudy">Star GolangStudy</a>
 <br>

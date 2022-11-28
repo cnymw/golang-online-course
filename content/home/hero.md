@@ -30,9 +30,9 @@ advanced:
 
 - 短视频：**3-5min** 快速入门
 - 文字：**10-30min** 深入学习
-- 思维导图：**5min** 回顾成果
-- 面试真题：**5min** 检验结果
-- 支持移动端：**24h** 随时随地 想学就学
+- 思维导图：**5min** 回顾知识点
+- 面试真题：**5min** 检验成果
+- 支持移动端：**24h** 随时随地 打开手机就能学
 
 <a class="github-button" href="https://github.com/cnymw/GolangStudy" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star GolangStudy">Star GolangStudy</a>
 <br>

@@ -26,7 +26,15 @@ advanced:
 
 <br>
 
-通过短视频+文字+思维导图+面试真题，全方位地指导如何学(面)习(试) Golang。
+本套课程通过以下 5 种方式
+
+- **短视频**
+- **文字**
+- **思维导图**
+- **面试真题**
+- **支持移动端**
+
+全方位地指导如何学习 Golang
 
 <a class="github-button" href="https://github.com/cnymw/GolangStudy" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star GolangStudy">Star GolangStudy</a>
 <br>

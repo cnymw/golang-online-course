@@ -26,6 +26,3 @@ main:
     PageRef: course/Interview/_index.md
     weight: 13
     parent: courses
-#  - name: Blog
-#    PageRef: post/_index.md
-#    weight: 30

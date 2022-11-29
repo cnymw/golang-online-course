@@ -21,7 +21,6 @@ tags:
   - Kubernetes 概述
   - Kubernetes namespace
   - Kubernetes 组件
-- 面试题目
 
 ## 课程列表
 

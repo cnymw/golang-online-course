@@ -6,23 +6,27 @@
 main:
   - name: Home
     url: '/'
-    weight: 10
+    weight: 100
   - name: 课程
-    weight: 20
+    weight: 200
     identifier: courses
   - name: Golang
     PageRef: course/Golang/_index.md
-    weight: 10
+    weight: 210
     parent: courses
   - name: Kubernetes
     PageRef: course/Kubernetes/_index.md
-    weight: 11
+    weight: 220
+    parent: courses
+  - name: 算法/数据结构
+    PageRef: course/Algorithm/_index.md
+    weight: 230
     parent: courses
   - name: Leetcode
     PageRef: course/Leetcode/_index.md
-    weight: 12
+    weight: 240
     parent: courses
-  - name: 面试题库
+  - name: 面试真题
     PageRef: course/Interview/_index.md
-    weight: 13
+    weight: 250
     parent: courses

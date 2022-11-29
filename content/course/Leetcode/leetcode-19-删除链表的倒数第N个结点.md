@@ -43,7 +43,7 @@ tags:
 
 > [GolangStudy Online Courses：Go 源码解读-双向链表 list](https://golangstudy.tech/course/golang/go-源码解读-双向链表list)
 >
-> [GolangStudy Online Courses：数据结构-链表](https://golangstudy.tech/course/golang/数据结构-链表)
+> [GolangStudy Online Courses：数据结构-链表](https://golangstudy.tech/course/algorithm/数据结构-链表/)
 
 根据链表分类，题目给到的 `ListNode` 数据结构属于单向链表，根据单向链表性质，只能从首节点单向向后 `next` 遍历到尾节点。
 

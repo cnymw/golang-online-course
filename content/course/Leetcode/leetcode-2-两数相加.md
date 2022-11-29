@@ -7,7 +7,8 @@ weight: 2
 commentable: true
 editable: true
 tags:
-  - list
+  - leetcode
+  - 链表 list
 ---
 
 ## 题目

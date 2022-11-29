@@ -1,6 +1,6 @@
 ---
 
-title: 📊 学习 Kubernetes
+title: 📊 Kubernetes
 linkTitle: Kubernetes
 summary: 通过该课程可以从浅入深学习 Kubernetes。
 date: '2022-11-09'

@@ -3,7 +3,7 @@
 title: kubernetes 面试题
 date: '2022-11-22'
 type: book
-weight: 2
+weight: 200
 commentable: true
 editable: true
 

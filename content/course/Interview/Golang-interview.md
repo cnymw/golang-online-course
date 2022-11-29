@@ -3,7 +3,7 @@
 title: Golang 面试题
 date: '2022-11-21'
 type: book
-weight: 1
+weight: 100
 commentable: true
 editable: true
 

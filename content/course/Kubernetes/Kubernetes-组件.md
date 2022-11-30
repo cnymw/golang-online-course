@@ -3,7 +3,7 @@
 title: Kubernetes 组件
 date: '2022-11-23'
 type: book
-weight: 2
+weight: 102
 commentable: true
 editable: true
 

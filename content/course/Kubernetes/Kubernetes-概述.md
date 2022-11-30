@@ -3,7 +3,7 @@
 title: Kubernetes 概述
 date: '2022-11-18'
 type: book
-weight: 1
+weight: 101
 commentable: true
 editable: true
 

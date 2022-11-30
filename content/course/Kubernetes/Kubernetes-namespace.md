@@ -6,7 +6,8 @@ type: book
 weight: 103
 commentable: true
 editable: true
-
+tags:
+  - kubernetes
 ---
 
 {{< bilibili src="https://player.bilibili.com/player.html?aid=472079320&bvid=BV12T411A7HN&cid=806474822&page=1" >}}

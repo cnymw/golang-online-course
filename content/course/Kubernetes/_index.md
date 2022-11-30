@@ -7,7 +7,7 @@ date: '2022-11-09'
 type: book
 weight: 2
 tags:
-  - k8s
+  - kubernetes
 
 ---
 

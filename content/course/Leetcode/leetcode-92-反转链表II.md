@@ -34,6 +34,8 @@ tags:
 
 ### 解法 1：利用数组特性
 
+> 参考资料：
+> 
 > [GolangStudy Online Courses：数据结构-链表](https://golangstudy.tech/course/algorithm/数据结构-链表)
 
 通过链表的特性我们可以知道，链表不支持随机读写，所以没办法将指定位置的两个节点进行对调。

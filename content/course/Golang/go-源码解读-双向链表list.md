@@ -3,7 +3,7 @@
 title: Go 源码解读-双向链表 list
 date: '2022-10-14'
 type: book
-weight: 1
+weight: 200
 commentable: true
 editable: true
 tags:

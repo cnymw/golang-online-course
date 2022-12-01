@@ -3,7 +3,7 @@
 title: Go 源码解读-标识符
 date: '2022-10-18'
 type: book
-weight: 2
+weight: 201
 commentable: true
 editable: true
 

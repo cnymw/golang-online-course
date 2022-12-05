@@ -5,7 +5,7 @@ linkTitle: Golang
 summary: 通过该课程可以从浅入深学习 Golang 这门语言。
 date: '2022-11-09'
 type: book
-weight: 1
+weight: 100
 tags:
   - golang
 

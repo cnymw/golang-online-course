@@ -5,7 +5,7 @@ linkTitle: Interview
 summary: 通过该课程可以专门学习如何回答面试题。
 date: '2022-11-21'
 type: book
-weight: 5
+weight: 1300
 tags:
   - interview
 

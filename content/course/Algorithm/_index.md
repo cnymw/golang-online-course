@@ -5,7 +5,7 @@ linkTitle: Algorithm
 summary: 通过该课程可以快速的理解算法以及数据结构。
 date: '2022-11-27'
 type: book
-weight: 3
+weight: 1100
 tags:
   - 算法
   - 数据结构

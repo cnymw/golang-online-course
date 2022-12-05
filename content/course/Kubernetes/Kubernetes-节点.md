@@ -127,10 +127,10 @@ kubelet 负责创建和更新节点的 .status，以及更新它们对应的 Lea
     - 在节点不可达的情况下，在 Node 的 .status 中更新 Ready 状况。在这种情况下，节点控制器将 NodeReady 状况更新为 Unknown。
     - 如果节点仍然无法访问：对于不可达节点上的所有 Pod 触发 API 发起的逐出操作。默认情况下，节点控制器在将节点标记为 Unknown 后等待 5 分钟提交第一个驱逐请求。
 
-# 参考资料
+## 参考资料
 
 - [kubernetes.io 官方文档：Kubernetes 节点](https://kubernetes.io/zh-cn/docs/concepts/architecture/nodes/)
 
-# 思维导图
+## 思维导图
 
 ![Kubernetes-节点-思维导图.png](https://cnymw.github.io/GolangStudy/docs/Kubernetes-节点/Kubernetes-节点-思维导图.png)

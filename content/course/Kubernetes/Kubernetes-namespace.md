@@ -76,10 +76,10 @@ kubectl api-resources --namespaced=true
 kubectl api-resources --namespaced=false
 ```
 
-# 参考资料
+## 参考资料
 
 - [kubernetes.io官方文档：namespace](https://kubernetes.io/zh-cn/docs/concepts/overview/working-with-objects/namespaces/)
 
-# 思维导图
+## 思维导图
 
 ![Kubernetes-namespace-思维导图.png](https://cnymw.github.io/GolangStudy/docs/Kubernetes-namespace/Kubernetes-namespace-思维导图.png)

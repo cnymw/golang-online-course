@@ -6,7 +6,8 @@ type: book
 weight: 700
 commentable: true
 editable: true
-
+tags:
+  - redis
 ---
 
 ## 数据结构

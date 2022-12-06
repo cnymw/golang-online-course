@@ -8,3 +8,7 @@ commentable: true
 editable: true
 
 ---
+
+{{< spoiler text="描述一下链表的特点" >}}
+TODO
+{{< /spoiler >}}

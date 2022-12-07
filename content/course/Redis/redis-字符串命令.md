@@ -76,6 +76,8 @@ redis> GET not-exists-key
 "value" # 维持原值不变
 ```
 
+---
+
 ## SETNX key value
 
 > 可用版本：>=1.0.0
@@ -101,6 +103,8 @@ redis> SETNX job "code-farmer"   # 尝试覆盖 job ，失败
 redis> GET job                   # 没有被覆盖
 "programmer"
 ```
+
+---
 
 ## SETEX keys seconds value
 
@@ -132,6 +136,8 @@ redis> TTL cd
 (integer) 2997
 ```
 
+---
+
 ## PSETEX key milliseconds value
 
 > 可用版本：>=2.6.0
@@ -155,6 +161,8 @@ redis> GET mykey
 "Hello"
 ```
 
+---
+
 ## GET key
 
 > 可用版本：>=1.0.0
@@ -177,6 +185,8 @@ OK
 redis> GET db
 "redis"
 ```
+
+---
 
 ## GETSET key value
 
@@ -204,6 +214,8 @@ redis> GET db
 "redis"
 ```
 
+---
+
 ## STRLEN key
 
 > 可用版本：>=2.2.0
@@ -226,6 +238,8 @@ redis> STRLEN mykey
 (integer) 11
 ```
 
+---
+
 ## APPEND key value
 
 > 可用版本：>=2.0.0
@@ -247,6 +261,8 @@ redis> APPEND myphone " - 1110"     # 长度从 5 个字符增加到 12 个字�
 redis> GET myphone
 "nokia - 1110"
 ```
+
+---
 
 ## SETRANGE key offset value
 
@@ -276,6 +292,8 @@ redis> SETRANGE greeting 6 "Redis"
 redis> GET greeting
 "hello Redis"
 ```
+
+---
 
 ## GETRANGE key start end
 
@@ -311,6 +329,8 @@ redis> GETRANGE greeting 0 1008611    # 值域范围不超过实际字符串，�
 "hello, my friend"
 ```
 
+---
+
 ## INCR key
 
 > 可用版本：>=1.0.0
@@ -333,6 +353,8 @@ redis> INCR page_view
 redis> GET page_view    # 数字值在 Redis 中以字符串的形式保存
 "21"
 ```
+
+---
 
 ## INCRBY key increment
 
@@ -357,6 +379,8 @@ redis> GET rank
 "70"
 ```
 
+---
+
 ## INCRBYFLOAT key increment
 
 > 可用版本：>=2.6.0
@@ -380,6 +404,8 @@ redis> GET decimal
 "5.56"
 ```
 
+---
+
 ## DECR key
 
 > 可用版本：>=1.0.0
@@ -400,6 +426,8 @@ redis> DECR failure_times
 (integer) 9
 ```
 
+---
+
 ## DECRBY key decrement
 
 > 可用版本：>=1.0.0
@@ -419,6 +447,8 @@ OK
 redis> DECRBY count 20
 (integer) 80
 ```
+
+---
 
 ## MSET key value [key value …]
 
@@ -444,6 +474,8 @@ redis> MGET date time weather
 3) "sunny"
 ```
 
+---
+
 ## MSETNX key value [key value …]
 
 > 可用版本：>=1.0.1
@@ -467,6 +499,8 @@ redis> MGET rmdbs nosql key-value-store
 2) "MongoDB"
 3) "redis"
 ```
+
+---
 
 ## MGET key [key …]
 
@@ -496,6 +530,8 @@ redis> MGET redis mongodb mysql     # 不存在的 mysql 返回 nil
 2) "mongodb.org"
 3) (nil)
 ```
+
+---
 
 ## 思维导图
 

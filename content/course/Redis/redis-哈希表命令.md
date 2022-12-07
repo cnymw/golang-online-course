@@ -32,6 +32,8 @@ redis> HGET website google
 "www.g.cn"
 ```
 
+---
+
 ## HSETNX hash field value
 
 > 可用版本：>=2.0.0
@@ -51,6 +53,8 @@ redis> HSETNX database key-value-store Redis
 redis> HGET database key-value-store
 "Redis"
 ```
+
+---
 
 ## HGET hash field
 
@@ -72,6 +76,8 @@ redis> HGET homepage redis
 "redis.com"
 ```
 
+---
+
 ## HEXISTS hash field
 
 > 可用版本：>=2.0.0
@@ -89,6 +95,8 @@ redis> HEXISTS phone myphone
 (integer) 0
 ```
 
+---
+
 ## HDEL key field [field …]
 
 > 可用版本：>=2.0.0
@@ -105,6 +113,8 @@ redis> HEXISTS phone myphone
 redis> HDEL abbr a
 (integer) 1
 ```
+
+---
 
 ## HLEN key
 
@@ -135,6 +145,8 @@ redis> HLEN db
 (integer) 3
 ```
 
+---
+
 ## HSTRLEN key field
 
 > 可用版本：>=3.2.0
@@ -161,6 +173,8 @@ redis> HSTRLEN myhash f3
 (integer) 4
 ```
 
+---
+
 ## HINCRBY key field increment
 
 > 可用版本：>=2.0.0
@@ -186,6 +200,8 @@ redis> HGET counter page_view
 "200"
 ```
 
+---
+
 ## HINCRBYFLOAT key field increment
 
 > 可用版本：>=2.6.0
@@ -206,6 +222,8 @@ redis> HSET mykey field 10.50
 redis> HINCRBYFLOAT mykey field 0.1
 "10.6"
 ```
+
+---
 
 ## HMSET key field value [field value …]
 
@@ -230,6 +248,8 @@ redis> HGET website yahoo
 "www.yahoo.com"
 ```
 
+---
+
 ## HMGET key field [field …]
 
 > 可用版本：>=2.0.0
@@ -251,6 +271,8 @@ redis> HMGET pet dog cat fake_pet             # 返回值的顺序和传入参�
 2) "nounou"
 3) (nil)                                      # 不存在的域返回nil值
 ```
+
+---
 
 ## HKEYS key
 
@@ -275,6 +297,8 @@ redis> HKEYS website
 2) "yahoo"
 ```
 
+---
+
 ## HVALS key
 
 > 可用版本：>=2.0.0
@@ -297,6 +321,8 @@ redis> HVALS website
 1) "www.google.com"
 2) "www.yahoo.com"
 ```
+
+---
 
 ## HGETALL key
 
@@ -326,10 +352,12 @@ redis> HGETALL people
 4) "Forrest Gump"
 ```
 
+---
+
 ## HSCAN key cursor [MATCH pattern] [COUNT count]
 
 > 可用版本：>=2.8.0
-> 
+>
 > 参考资料：
 >
 > [redis命令：SCAN](https://redis.io/commands/scan)
@@ -355,6 +383,9 @@ redis 127.0.0.1:6379> hscan hash 0
    3) "age"
    4) "33"
 ```
+
+---
+
 ## 思维导图
 
 ![redis-哈希表命令-思维导图.png](https://cnymw.github.io/GolangStudy/docs/redis-哈希表命令/redis-哈希表命令-思维导图.png)

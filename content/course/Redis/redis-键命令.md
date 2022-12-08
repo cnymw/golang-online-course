@@ -9,6 +9,8 @@ editable: true
 tags:
   - redis
 ---
+  
+Redis 键命令用于管理 redis 的键。
 
 ## DEL KEY_NAME
 

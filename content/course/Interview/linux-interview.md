@@ -12,3 +12,7 @@ editable: true
 {{< spoiler text="说一下你常用的 linux 命令，以及在什么场景下会使用" >}}
 TODO
 {{< /spoiler >}}
+
+{{< spoiler text="介绍一下 top 的常用用法" >}}
+TODO
+{{< /spoiler >}}

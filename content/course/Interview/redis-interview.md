@@ -25,3 +25,9 @@ TODO
 {{< spoiler text="zset 底层实现" >}}
 TODO
 {{< /spoiler >}}
+
+## other
+
+{{< spoiler text="介绍一下 redis 长短连接" >}}
+TODO
+{{< /spoiler >}}

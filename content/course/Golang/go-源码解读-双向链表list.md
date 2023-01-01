@@ -1,6 +1,6 @@
 ---
 
-title: Go 源码解读-双向链表 list
+title: Go 源码解读：双向链表 list
 date: '2022-10-14'
 type: book
 weight: 200
@@ -33,6 +33,8 @@ Golang sdk 中实现了双向链表，路径为`container/list/list.go`，我们
 //
 package list
 ```
+
+---
 
 ## 结点 Element
 
@@ -76,6 +78,8 @@ func (e *Element) Prev() *Element {
 	return nil
 }
 ```
+
+---
 
 ## 双向链表 List
 
@@ -354,6 +358,8 @@ func (l *List) PushFrontList(other *List) {
 	}
 }
 ```
+
+---
 
 ## 思维导图
 

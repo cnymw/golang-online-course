@@ -21,6 +21,8 @@ tags:
 
 Golang sdk 中实现了双向链表，路径为`container/list/list.go`，我们可以学习一下 sdk 中的实现。
 
+---
+
 ## 包 package
 
 ```go

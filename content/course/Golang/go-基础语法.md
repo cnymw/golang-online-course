@@ -9,6 +9,12 @@ editable: true
 
 ---
 
+## 思维导图预习
+
+![go-基础语法-思维导图.png](https://cnymw.github.io/GolangStudy/docs/go-基础语法/go-基础语法-思维导图.png)
+
+---
+
 ## 命名
 
 ### 命名规则
@@ -32,7 +38,7 @@ continue   for           import   return      var
 ### 预定义标识符
 
 > 参考资料：
-> 
+>
 > [go-源码解读-标识符](https://golangstudy.tech/course/golang/go-源码解读-标识符/)
 
 有大约 30 多个预定义的标识符，比如 int 和 true 等，主要对应内建的常量、类型和函数。
@@ -43,13 +49,13 @@ continue   for           import   return      var
 内建常量: true false iota nil
 
 内建类型: int int8 int16 int32 int64
-          uint uint8 uint16 uint32 uint64 uintptr
-          float32 float64 complex128 complex64
-          bool byte rune string error
+uint uint8 uint16 uint32 uint64 uintptr
+float32 float64 complex128 complex64
+bool byte rune string error
 
 内建函数: make len cap new append copy close delete
-          complex real imag
-          panic recover
+complex real imag
+panic recover
 ```
 
 ### 标识符可见范围
@@ -166,6 +172,6 @@ func init() { /* ... */ }
 
 ---
 
-## 思维导图
+## 思维导图复习
 
 ![go-基础语法-思维导图.png](https://cnymw.github.io/GolangStudy/docs/go-基础语法/go-基础语法-思维导图.png)

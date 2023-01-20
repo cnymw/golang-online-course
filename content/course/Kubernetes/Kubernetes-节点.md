@@ -3,7 +3,7 @@
 title: Kubernetes 节点
 date: '2022-11-30'
 type: book
-weight: 104
+weight: 105
 commentable: true
 editable: true
 tags:

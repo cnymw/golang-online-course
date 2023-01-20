@@ -3,7 +3,7 @@
 title: Kubernetes namespace
 date: '2022-11-24'
 type: book
-weight: 104
+weight: 105
 commentable: true
 editable: true
 tags:

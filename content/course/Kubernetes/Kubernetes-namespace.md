@@ -12,19 +12,35 @@ tags:
 
 {{< bilibili src="https://player.bilibili.com/player.html?aid=472079320&bvid=BV12T411A7HN&cid=806474822&page=1" >}}
 
+## 思维导图预习
+
+![Kubernetes-namespace-思维导图.png](https://cnymw.github.io/GolangStudy/docs/Kubernetes-namespace/Kubernetes-namespace-思维导图.png)
+
+---
+
 ## 什么是 Kubernetes namespace
 
-在 Kubernetes 中，名字空间（namespace）提供一种机制，将同一集群中的资源划分为相互隔离的组。
+在 Kubernetes 中，名字空间（Namespace）提供一种机制，将同一集群中的资源划分为相互隔离的组。
 
 同一 namespace 内的资源名称要唯一，但跨 namespace 时没有这个要求。
 
 namespace 作用域仅针对带有 namespace 的对象，例如 Deployment、Service 等，这种作用域对集群访问的对象不适用，例如 StorageClass、Node、PersistentVolume 等。
+
+---
 
 ## 什么时候使用 Kubernetes namespace
 
 namespace 适用于存在很多跨多个团队或项目的用户的场景。对于只有几到几十个用户的集群，根本不需要创建或考虑 namespace。
 
 在多个用户之间划分集群资源的时候，可以使用 namespace。
+
+---
+
+## 什么时候不必使用 Kubernetes namespace
+
+不必使用多个 namespace 来分隔仅仅轻微不同的资源，例如同一软件的不同版本，应该使用标签（label）来区分同一 namespace 中的不同资源。
+
+---
 
 ## 如何使用 namespace
 
@@ -47,13 +63,11 @@ Kubernetes 会创建四个初始 namespace：
 
 ### 为请求设置 namespace
 
-要为当前请求设置 namespace，请使用 --namespace 或 -n 参数。
+要为当前请求设置 namespace，请使用 --namespace 参数。
 
 ```shell
 kubectl run nginx --image=nginx --namespace=<namespace 名称>
 kubectl get pods --namespace=<namespace 名称>
-# 也可以使用 -n 参数
-kubectl get pods -ndefault
 ```
 
 ### 设置 namespace 偏好
@@ -64,7 +78,17 @@ kubectl get pods -ndefault
 kubectl config set-context --current --namespace=<namespace 名称>
 ```
 
-## 并非所有对象都在 namespace 中 
+---
+
+## namespace 和 DNS
+
+当你创建一个 service 时， Kubernetes 会创建一个相应的 DNS 条目。
+
+该条目的形式是 <service 名称>.<namespace 名称>.svc.cluster.local，这意味着如果容器只使用 <service 名称>，它将被解析到本地 namespace 的 service。这对于跨多个 namespace（如开发、测试和生产）使用相同的配置非常有用。如果你希望跨 namespace 访问，则需要使用完全限定域名（FQDN）。
+
+---
+
+## 并非所有对象都在 namespace 中
 
 大多数 kubernetes 资源（例如 Pod、Service、副本控制器等）都位于某些 namespace 中。但是 namespace 资源本身并不在 namespace 中。而且底层资源，例如节点和持久化卷不属于任何 namespace。
 
@@ -76,9 +100,13 @@ kubectl api-resources --namespaced=true
 kubectl api-resources --namespaced=false
 ```
 
+---
+
 ## 参考资料
 
-- [kubernetes.io官方文档：namespace](https://kubernetes.io/zh-cn/docs/concepts/overview/working-with-objects/namespaces/)
+- [kubernetes.io官方文档：名字空间](https://kubernetes.io/zh-cn/docs/concepts/overview/working-with-objects/namespaces/)
+
+---
 
 ## 思维导图
 

@@ -19,8 +19,10 @@ tags:
 
 - 基础：Kubernetes 核心组件
   - Kubernetes 概述
-  - Kubernetes namespace
   - Kubernetes 组件
+  - Kubernetes 理解对象
+  - Kubernetes namespace
+  - Kubernetes 节点
 
 ## 课程列表
 
